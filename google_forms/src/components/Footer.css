@@ -1,0 +1,26 @@
+.footer {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color:dimgray;
+}
+
+.rights {
+    align-self: center;
+}
+
+.logo{
+    display: inline-flex;
+    align-self: center;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: dimgray;
+}
+.logo-text {
+    position: relative;
+    font-size: 22.1px;
+    top: -6px;
+}
