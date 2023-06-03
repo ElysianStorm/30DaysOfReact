@@ -1,0 +1,35 @@
+.header {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 280px auto 220px;
+    align-items: center;
+    width: 100%;
+}
+
+.outline-menu {
+    width: 70px;
+    height: 70px;
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+    box-shadow: none;
+    font-size:x-large;
+}
+
+.header-search {
+    padding-left: 40px;
+}
+
+.header-search>input {
+    width: 470px;
+    height: 30px;
+}
+
+.header-links {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.header-links>a {
+    text-decoration: none;
+}
