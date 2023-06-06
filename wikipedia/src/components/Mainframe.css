@@ -1,0 +1,72 @@
+.mainframe-container {
+    width: 60%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.title > p {
+    color: blue;
+}
+
+p, h3 {
+    font-family: sans-serif;;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.content-information > p {
+    word-spacing: 80%;
+    font-weight: lighter;
+    text-align: left;
+    line-height: 150%;
+}
+
+.content-info-card {
+    float: right;
+    width: 280px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.card {
+    justify-content: center;
+    border: 1px solid lightgray;
+    background-color: ghostwhite;
+    font-weight: 300;
+}
+
+.card > table {
+    font-size: small;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.edit {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    color: blue;
+}
+
+.sub-content {
+    margin-bottom: -10px;
+}

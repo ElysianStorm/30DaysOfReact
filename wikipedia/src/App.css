@@ -6,3 +6,9 @@
   padding-right: 20px;
   padding-bottom: 50px;
 }
+
+.main-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
